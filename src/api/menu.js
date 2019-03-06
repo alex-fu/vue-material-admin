@@ -7,6 +7,12 @@ const Menu =  [
     name: 'Dashboard',
   },
   {
+    title: 'Biz Dashboard',
+    group: 'apps',
+    icon: 'dashboard',
+    name: 'dashboard-biz',
+  },
+  {
     title: 'Chat',
     group: 'apps',
     icon: 'chat_bubble',
@@ -37,7 +43,7 @@ const Menu =  [
       { name: 'chart', title: 'Chart', component: 'components/chart' },
       { name: 'list', title: 'List', component: 'components/widget-list' },
     ]
-  },  
+  },
   { header: 'UI Elements' },
   {
     title: 'General',
@@ -57,12 +63,12 @@ const Menu =  [
       { name: 'tables', title: 'Data Tables', component: 'components/tables' },
       { name: 'parallax', title: 'Parallax  image', component: 'components/parallax' },
       { name: 'snackbar', title: 'Snackbar', component: 'components/snackbar' },
-      { name: 'progress', title: 'Progress', component: 'components/progress' },      
-      { name: 'slider', title: 'Slider', component: 'components/sliders' },      
-      { name: 'tooltip', title: 'Tooltip', component: 'components/tooltips' },      
-      { name: 'pagination', title: 'Pagination', component: 'components/paginations' },      
-      { name: 'typography', title: 'Typography', component: 'components/typography' },      
-      { name: 'color', title: 'Color', component: 'components/color' },      
+      { name: 'progress', title: 'Progress', component: 'components/progress' },
+      { name: 'slider', title: 'Slider', component: 'components/sliders' },
+      { name: 'tooltip', title: 'Tooltip', component: 'components/tooltips' },
+      { name: 'pagination', title: 'Pagination', component: 'components/paginations' },
+      { name: 'typography', title: 'Typography', component: 'components/typography' },
+      { name: 'color', title: 'Color', component: 'components/color' },
 
     ]
   },
@@ -72,8 +78,8 @@ const Menu =  [
     component: 'picker',
     icon: 'filter_vintage',
     items: [
-      { name: 'timepicker', title: 'Timepicker', component: 'pickers/timepicker' },     
-      { name: 'datepicker', title: 'Datepicker', component: 'pickers/datepicker' },      
+      { name: 'timepicker', title: 'Timepicker', component: 'pickers/timepicker' },
+      { name: 'datepicker', title: 'Datepicker', component: 'pickers/datepicker' },
 
     ]
   },
@@ -93,7 +99,7 @@ const Menu =  [
       { name: 'toolbar', title: 'Toolbars', component: 'components/toolbar' },
       { name: 'timeline', title: 'Timeline', component: 'components/timeline' },
     ]
-  },  
+  },
   {
     title: 'Forms & Controls',
     group: 'forms',
